@@ -7,3 +7,6 @@ alert(a);
 let year = 2007;
 alert("Год выпуска первого iPhone - " + year)
 
+let name = "Брендан Эйх";
+alert("Имя создателя языка JavaScript - " + name)
+
