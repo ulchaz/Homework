@@ -17,3 +17,5 @@ alert("разность - " + (m - n));
 alert("произведение - " + (m * n));
 alert("частное - " + (m / n));
 
+let result = 2;
+alert(result**5);
