@@ -35,6 +35,7 @@ alert(num);
 
 let age = prompt('Сколько вам лет?');
 alert(age);
+
 let user = {
     name: "John",
     age: 30,
@@ -50,4 +51,6 @@ delete user["city of residence"];
 
 let info = prompt("Какую информацию хотите узнать о пользователе?");
 alert(user[info]);
-  
+
+let userName = prompt('Ваше имя');
+alert("Привет, " + userName + " !")
