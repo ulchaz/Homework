@@ -23,3 +23,12 @@ alert(result**5);
 let c = 9;
 let b = 2;
 alert(c%b);
+
+let num = 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
+alert(num);
