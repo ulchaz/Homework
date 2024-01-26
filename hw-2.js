@@ -19,3 +19,7 @@ alert("частное - " + (m / n));
 
 let result = 2;
 alert(result**5);
+
+let c = 9;
+let b = 2;
+alert(c%b);
