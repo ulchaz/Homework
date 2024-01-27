@@ -1,130 +1,193 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: "Montserrat", sans-serif;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top_game {
+  height: 1024px;
+  background-image: url(img/back_game.jpg);
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.game_head {
+  width: 730.778px;
+  height: 125.007px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 217px;
+  margin-left: 120px;
+}
+
+.text {
+  width: 481px;
+  height: 64px;
+  margin-left: 120px;
+  margin-top: 32px;
+}
+
+.game_text {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.game_text_big {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.button_go {
+  width: 234.063px;
+  height: 48.603px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #9C0332;
+  border: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 120px;
+  margin-top: 44px;
+}
+
+.game_catalog {
+  height: 556px;
+  flex-shrink: 0;
+  background: #000915;
+}
+
+.games {
+  padding-top: 128px;
+  display: flex;
+  gap: 32px;
+}
+
+.game1 {
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background-image: url(img/game1.jpg);
+}
+
+.game2 {
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background-image: url(img/game2.jpg);
+}
+
+.game3 {
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background-image: url(img/game3.jpg);
+}
+
+.game_name {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 236px;
+  margin-left: 32px;
+}
+
+@media (max-width: 767px) {
   .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+    padding-left: 16px;
+    padding-right: 16px;
   }
-
-.top_game{
-    height: 1024px;
-    background-image: url(img/back_game.jpg);
-    background-repeat: no-repeat;
-    flex-shrink: 0;
-    background-position: center;
-    background-size: cover;
-}
-
-.game_head{
-    width: 730.778px;
-height: 125.007px;
-color: #FFF;
-
-font-family: Montserrat;
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-top: 217px;
-margin-left: 120px;
-}
-
-.text{
-    width: 481px;
-    height: 64px;
-    margin-left: 120px;
-    margin-top: 32px;
-}
-
-.game_text{
-
-color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 300;
-line-height: 32px;
-
-}
-.game_text_big{
-    color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 32px;
-}
-
-.button_go{
-    width: 234.063px;
-height: 48.603px;
-flex-shrink: 0;
-border-radius: 30px;
-background: #9C0332;
-border: none;
-color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 120px;
-margin-top: 44px;
-}
-
-.game_catalog{
-    width: 1440px;
-height: 556px;
-flex-shrink: 0;
-background: #000915;
-}
-
-.games{
-    padding-top: 128px;
+  .game_head {
+    padding-top: 328px;
+    color: #ffffff;
     display: flex;
-    gap: 32px;
-}
-
-.game1{
-
-    width: 379px;
-height: 300px;
-flex-shrink: 0;
-border-radius: 16px;
-background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-background-image: url(img/game1.jpg);
-}
-
-.game2{
-    width: 379px;
-height: 300px;
-flex-shrink: 0;
-border-radius: 16px;
-background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-background-image: url(img/game2.jpg);
-}
-
-.game3{
-    width: 379px;
-height: 300px;
-flex-shrink: 0;
-border-radius: 16px;
-background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-background-image: url(img/game3.jpg);
-}
-.game_name{
+    width: 343px;
+    height: 77.436px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0;
+  }
+  .text {
+    width: 343px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .game_text {
     color: #FFF;
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px;
-margin-top:236px ;
-margin-left: 32px;
-}
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .game_text_big {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  .button_mob {
+    display: flex;
+    justify-content: center;
+  }
+  .button_go {
+    margin-left: 0px;
+  }
+  .game_catalog {
+    height: 1221px;
+  }
+  .games {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .game {
+    width: 343px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
