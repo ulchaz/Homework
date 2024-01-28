@@ -17,3 +17,11 @@ else{
     console.log('Неверно')
 }
 
+let d = prompt('Введите число');
+let e = prompt('Введите еще число');
+if (d > 100 || e > 100){
+    alert('Верно')
+}
+else{
+    alert('Неверно')
+}
