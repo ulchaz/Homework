@@ -25,6 +25,10 @@
     margin-left: 0px;
     text-align: center;
   }
+  .top_block {
+    display: flex;
+    justify-content: center;
+  }
   .game_text {
     color: #FFF;
     font-family: Montserrat;
