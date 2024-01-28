@@ -25,3 +25,7 @@ if (d > 100 || e > 100){
 else{
     alert('Неверно')
 }
+
+let m = '2';
+let n = '3';
+alert((Number(m)) +(Number(n) ));
