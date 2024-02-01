@@ -47,3 +47,9 @@ while (n > 50){
     console.log(n);
 	console.log(num);
 }
+
+// задание 6
+let firstFriday = 4;
+for ( let friday = firstFriday; friday <= 31; friday += 7) {
+	console.log(`Сегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
+}
