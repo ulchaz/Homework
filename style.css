@@ -157,10 +157,6 @@ body {
     display: flex;
     justify-content: center;
   }
-  .text {
-    display: flex;
-    justify-content: center;
-  }
   .game_text {
     color: #FFF;
     font-family: Montserrat;
@@ -191,6 +187,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    align-items: center;
   }
   .game {
     width: 343px;
