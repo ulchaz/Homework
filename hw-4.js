@@ -5,3 +5,14 @@ while (i < 2) {
 	console.log("Привет");
 	i++;
 }
+
+//задание 2
+
+ 
+let a = 1;
+
+while (a < 6) {
+	console.log(a);
+	a++;
+}
+
