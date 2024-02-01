@@ -16,3 +16,12 @@ while (a < 6) {
 	a++;
 }
 
+// задание 3
+
+let b = 7;
+
+while (b < 23){
+    console.log(b);
+    b++;
+
+}
