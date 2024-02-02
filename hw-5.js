@@ -85,4 +85,32 @@ function cubeNumber() {
   }
   
   console.log(cubeNumber());
+
+  //задание 7 
+
+  let circle1 = {
+    radius: 5,
+    getArea: function() {
+      return 'площадь круга со значением ' + this.radius + ' равен ' + Math.PI * this.radius * this.radius;
+    },
+    getPerimeter: function() {
+      return 'периметр круга со значением ' + this.radius + ' равен ' + 2 * Math.PI * this.radius;
+    }
+  };
+  
+  let circle2 = {
+    radius: 7,
+    getArea: function() {
+      return 'площадь круга со значением ' + this.radius + ' равен ' + Math.PI * this.radius * this.radius;
+    },
+    getPerimeter: function() {
+      return 'периметр круга со значением ' + this.radius + ' равен ' + 2 * Math.PI * this.radius;
+    }
+  };
+  
+  console.log(circle1.getArea()); // выводит площадь круга со значение radius 5
+  console.log(circle1.getPerimeter()); 
+  
+  console.log(circle2.getArea()); 
+  console.log(circle2.getPerimeter()); 
  
