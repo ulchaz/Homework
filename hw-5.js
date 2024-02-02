@@ -59,4 +59,16 @@ function askAge () {
 }
 askAge();
 
+//задание 5
+
+function correctNumber (number1, number2) {
+    if (isNaN(number1) || isNaN(number2)){
+    return('Одно или оба значения не являются числом')
+} else {
+    return number1 * number2;
+}
+}
+
+console.log(correctNumber(4, 7));
+console.log(correctNumber('z', 7));
 
