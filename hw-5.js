@@ -45,5 +45,18 @@ printNum(5);
 
 console.log(returnNum(5));
 
+//задание 4 
+
+function askAge () {
+    let age = prompt("Сколько вам лет?")
+    if (age < 0) {
+        alert("Вы ввели неправильное значение");
+    } else if (age > 0 && age <= 12) {
+        alert("Привет, друг!");
+    } else {
+        alert("Добро пожаловать!")
+    }
+}
+askAge();
 
 
