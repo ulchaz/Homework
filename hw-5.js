@@ -72,3 +72,17 @@ function correctNumber (number1, number2) {
 console.log(correctNumber(4, 7));
 console.log(correctNumber('z', 7));
 
+//задание 6
+
+function cubeNumber() {
+    let n = prompt("Введите число");
+    if (isNaN(n)) {
+      return 'Переданный параметр не является числом';
+    } else {
+      let result = n * n * n;
+      return n + ' в кубе равняется ' + result;
+    }
+  }
+  
+  console.log(cubeNumber());
+ 
