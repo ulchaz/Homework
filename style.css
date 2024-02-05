@@ -219,6 +219,58 @@ body {
   margin-left: 135px;
 }
 
+.game_word {
+  height: 800px;
+  background-color: rgb(0, 9, 21);
+  display: flex;
+}
+.game_word_svg {
+  padding-top: 232px;
+}
+.game_word_heading {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.game_word_heading_block {
+  padding-top: 282px;
+  padding-left: 135px;
+}
+.game_word_text {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.game_word_text_block {
+  width: 588px;
+  padding-top: 32px;
+  padding-left: 135px;
+}
+.game_word_button {
+  width: 234.063px;
+  height: 48.603px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #9C0332;
+  border: none;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 32px;
+  margin-left: 135px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -292,6 +344,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 653.61px;
   }
   .game_season_box {
     padding-top: 51px;
@@ -327,5 +380,58 @@ body {
     display: flex;
     margin-top: 64px;
     margin-left: 0px;
+  }
+  .game_word {
+    height: 653.61px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .game_word_box {
+    padding-top: 51px;
+    display: flex;
+    width: 343px;
+    height: 217.6px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .game_word_heading {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .game_word_heading_block {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .game_word_text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 343px;
+  }
+  .game_word_text_block {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .game_word_button {
+    margin-left: 0;
+  }
+  .game_word_svg {
+    display: flex;
+    width: 344px;
+    height: 231px;
+    padding-left: 0;
+    justify-content: center;
+    margin-top: 64px;
   }
 }/*# sourceMappingURL=style.css.map */

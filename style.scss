@@ -221,6 +221,60 @@ margin-left: 32px;
     margin-left: 135px;
 }
 
+.game_word{
+    height: 800px;
+    background-color: rgb(0, 9, 21);
+    display: flex;
+    &_svg{
+        padding-top: 232px;
+    }
+    &_heading{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    &_heading_block{
+        padding-top: 282px;
+        padding-left: 135px;
+    }
+    &_text{
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    &_text_block{
+        width: 588px;
+        padding-top: 32px;
+        padding-left: 135px;
+
+
+    }
+    &_button{
+        width: 234.063px;
+        height: 48.603px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #9C0332;
+        border: none;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 32px;
+        margin-left: 135px;
+    }
+    
+}
 
 
 

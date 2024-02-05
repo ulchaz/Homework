@@ -71,6 +71,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 653.61px;
   }
   .game_season_box {
     padding-top: 51px;
@@ -106,5 +107,58 @@
     display: flex;
     margin-top: 64px;
     margin-left: 0px;
+  }
+  .game_word {
+    height: 653.61px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .game_word_box {
+    padding-top: 51px;
+    display: flex;
+    width: 343px;
+    height: 217.6px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .game_word_heading {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .game_word_heading_block {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .game_word_text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 343px;
+  }
+  .game_word_text_block {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .game_word_button {
+    margin-left: 0;
+  }
+  .game_word_svg {
+    display: flex;
+    width: 344px;
+    height: 231px;
+    padding-left: 0;
+    justify-content: center;
+    margin-top: 64px;
   }
 }/*# sourceMappingURL=mobile.css.map */
