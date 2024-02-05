@@ -29,7 +29,7 @@ text-align: center;
 }
 .top_block{
   display: flex;
-    justify-content: center; 
+  justify-content: center; 
 }
 
 
@@ -74,5 +74,53 @@ height: 300px;
 flex-shrink: 0;
 border-radius: 16px;
   }
+
+  .game_season{
+    &_block{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &_box{
+      padding-top: 51px;
+      width: 343px;
+height: 217.6px;
+    }
+
+    &_heading{
+      width: 243px;
+height: 39px;
+font-size: 32px;
+font-weight: 700;
+display: flex;
+justify-content: center;
+text-align: center;
+    }
+    &_heading_block{
+      display: flex;
+      justify-content: center;
+    }
+    &_text{
+      text-align: center;
+      font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+    }
+    &_button_mob{
+      display: flex;
+      justify-content: center;
+    }
+   
+  }
+
+  .season_svg{
+width: 344px;
+height: 236px;
+display: flex;
+margin-top: 64px;
+margin-left: 0px;
+  }
+
+
 }
 

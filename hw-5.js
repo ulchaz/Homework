@@ -108,9 +108,30 @@ function cubeNumber() {
     }
   };
   
-  console.log(circle1.getArea()); // выводит площадь круга со значение radius 5
+  console.log(circle1.getArea()); 
   console.log(circle1.getPerimeter()); 
   
   console.log(circle2.getArea()); 
-  console.log(circle2.getPerimeter()); 
- 
+  console.log(circle2.getPerimeter());
+
+
+//задание 8
+
+function gameSeason() {
+    let month = prompt('Введите номер месяца');
+    if (month >= 1 && month <= 12) {
+        if (month >= 3 && month <= 5) {
+            alert ("Весна");
+        } else if (month >= 6 && month <= 8) {
+            alert ("Лето");
+        } else if (month >= 9 && month <= 11) {
+            alert ("Осень");
+        } else {
+            alert ("Зима");
+        }
+    } else {
+        alert ("Неправильный номер месяца");
+    }
+}
+
+  

@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
   }
+
+  a{text-decoration: none;}
   
   body {
     font-family: "Montserrat", sans-serif;
@@ -78,6 +80,9 @@ margin-left: 120px;
 margin-top: 44px;
 }
 
+.button_go:hover{
+    transform: scale(1.05);
+}
 .game_catalog{
 
 height: 556px;
@@ -125,7 +130,98 @@ font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: 32px;
-margin-top:236px ;
+padding-top:236px ;
 margin-left: 32px;
 }
+
+.game1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
+  }
+.game2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
+  }
+.game3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
+  }
+
+
+.game_season{
+    &_block{
+        height: 800px;
+        top: 1580px;
+        background-color: #000915;
+        display: flex;
+        }
+    &_box{
+        width: 584px;
+    height: 313.61px;
+    padding-top: 243px;
+    display: flex;
+    flex-direction: column;
+    }
+    &_heading{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+    }
+  
+    &_text{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;  
+        margin-top: 32px; 
+        
+        
+    }
+    &_button{
+        width: 234.063px;
+        height: 48.603px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #9C0332;
+        border: none;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 32px;
+
+    }
+}
+.game_saeson_text_big{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;   
+}
+.game_season_button:hover{
+    transform: scale(1.05);
+}
+.game_saeson_text_block{
+    width: 481px;
+    margin-top: 32px;
+}
+
+.season_svg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 233px;
+    margin-left: 135px;
+}
+
+
+
+
 @import "mobile"

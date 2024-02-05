@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="hw-5.js"></script>
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,12 +22,23 @@
    </div> 
    <div class="game_catalog center">
     <div class="games">
-        <div class="game game1"><p class="game_name">Игра 1</p></div>
-        <div class="game game2"><p class="game_name">Игра 2</p></div>
-        <div class="game game3"><p class="game_name">Игра 3</p></div>
+        <a href="#"><div class="game game1"><p class="game_name">Игра 1</p></div></a>
+        <a href="#"><div class="game game2"><p class="game_name">Игра 2</p></div></a>
+        <a href="#"><div class="game game3"><p class="game_name">Игра 3</p></div></a>
     </div>
-
    </div>
+   <div class="game_season_block center">
+    <div class="game_season_box">
+        <div class="game_season_heading_block"><h1 class="game_season_heading">Времена года</h1></div>
+        <div class="text_season"><p class="game_season_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p></div>
+        <div class="game_season_button_mob"><button onclick="gameSeason();" class="game_season_button">Играть!</button>
+        </div>
+        </div>
 
+    <div class="season_svg"><img src="img/game_saoson_pic.png" alt="">
+        
+    </div>
+   </div>
+   <script src="hw-5.js"></script>
 </body>
 </html>
