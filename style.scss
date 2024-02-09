@@ -273,7 +273,12 @@ margin-left: 32px;
         margin-top: 32px;
         margin-left: 135px;
     }
-    
+    &_svg{
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }
 
 

@@ -130,6 +130,8 @@ margin-left: 0px;
       padding-top: 51px;
       display: flex;
       width: 343px;
+      margin-bottom: 64px;
+
 
 height: 217.6px;
       flex-direction: column;
@@ -161,6 +163,7 @@ width: 343px;
     }
     &_text_block{
       padding-left: 0;
+      width: 343px;
 
       display: flex;
       justify-content: center;
@@ -173,7 +176,6 @@ width: 343px;
       width: 344px;
 height: 231px;
 padding-left: 0;
-justify-content: center;
 margin-top: 64px;
     }
   }

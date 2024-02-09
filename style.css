@@ -270,6 +270,10 @@ body {
   margin-top: 32px;
   margin-left: 135px;
 }
+.game_word_svg {
+  display: flex;
+  flex-direction: column;
+}
 
 @media (max-width: 767px) {
   .center {
@@ -391,6 +395,7 @@ body {
     padding-top: 51px;
     display: flex;
     width: 343px;
+    margin-bottom: 64px;
     height: 217.6px;
     flex-direction: column;
     align-content: center;
@@ -420,6 +425,7 @@ body {
   }
   .game_word_text_block {
     padding-left: 0;
+    width: 343px;
     display: flex;
     justify-content: center;
   }
@@ -431,7 +437,6 @@ body {
     width: 344px;
     height: 231px;
     padding-left: 0;
-    justify-content: center;
     margin-top: 64px;
   }
 }/*# sourceMappingURL=style.css.map */
