@@ -56,3 +56,12 @@ if (number.includes(parseInt(userNumber))) {
 } else {
     alert("Не угадал");
 }
+
+//задание 8
+
+const letters = 'abcdef'
+let str = letters.split('');
+let str2 = str.reverse();
+let str3 = str2.join('');
+console.log(str3);
+
