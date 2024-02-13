@@ -100,3 +100,13 @@ function length(arr){
     const lengthWord = length(inputWord);
     console.log(lengthWord);
 
+//задание 13
+
+function filterPositive(arr) {
+const negativeNum = arr.filter(b => b < 0);
+return negativeNum;
+  }
+  console.log(filterPositive([-1, 0, 5, -10, 56])); 
+  console.log(filterPositive([-25, 25, 0, -1000, -2]));
+
+
