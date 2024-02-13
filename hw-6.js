@@ -23,7 +23,7 @@ console.log(joinNum.join(' '));
 
 //задание 4
 
-let arr = [];
+const arr = [];
 for (let m = 0; m < 3; m++) {
   arr[m] = [];
   for (let j = 0; j < 3; j++) {
@@ -31,3 +31,10 @@ for (let m = 0; m < 3; m++) {
   }
 }
 console.log(arr);
+
+//задние 5
+
+const numPush = [1, 1, 1];
+numPush.push(2, 2, 2);
+console.log(numPush);
+
