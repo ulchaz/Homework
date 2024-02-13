@@ -89,3 +89,14 @@ return squaredArr;
 const input = [2, 5, 3, 8];
 const squaredArray = square(input);
 console.log(squaredArray);
+
+//задание 12
+
+function length(arr){
+    const lengthWord = arr.map(word =>word.length);
+    return lengthWord;
+    }
+    const inputWord = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+    const lengthWord = length(inputWord);
+    console.log(lengthWord);
+
