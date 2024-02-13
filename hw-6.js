@@ -46,3 +46,13 @@ numSort.sort((a, b) => a - b);
 numSort = numSort.filter(item => typeof item === 'number');
 console.log(numSort);
 
+//задание 7
+
+const number = [9, 8, 7, 6, 5];
+const userNumber = prompt("Угадайте число");
+
+if (number.includes(parseInt(userNumber))) {
+    alert("Угадал");
+} else {
+    alert("Не угадал");
+}
