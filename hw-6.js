@@ -65,3 +65,9 @@ let str2 = str.reverse();
 let str3 = str2.join('');
 console.log(str3);
 
+//задание 9 
+
+const joinArr = [[1, 2, 3], [4, 5, 6]];
+
+const result = joinArr.flat();
+console.log(result);
