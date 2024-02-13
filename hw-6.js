@@ -38,3 +38,11 @@ const numPush = [1, 1, 1];
 numPush.push(2, 2, 2);
 console.log(numPush);
 
+
+//задние 6
+
+let numSort = [9, 8, 7, 'a', 6, 5];
+numSort.sort((a, b) => a - b);
+numSort = numSort.filter(item => typeof item === 'number');
+console.log(numSort);
+
