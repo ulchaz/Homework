@@ -79,3 +79,13 @@ for (let s = 0; s < sumArr.length - 1; s++){
     const sum = sumArr[s] + sumArr[s+1];
     console.log(`Сумма ${sumArr[s]} и ${sumArr[s+1]} равна ${sum}`)
 } 
+
+//задание 11
+
+function square(arr){
+const squaredArr = arr.map(a => a * a);
+return squaredArr;
+}
+const input = [2, 5, 3, 8];
+const squaredArray = square(input);
+console.log(squaredArray);
