@@ -71,3 +71,11 @@ const joinArr = [[1, 2, 3], [4, 5, 6]];
 
 const result = joinArr.flat();
 console.log(result);
+
+//задание 10
+
+const sumArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let s = 0; s < sumArr.length - 1; s++){
+    const sum = sumArr[s] + sumArr[s+1];
+    console.log(`Сумма ${sumArr[s]} и ${sumArr[s+1]} равна ${sum}`)
+} 
