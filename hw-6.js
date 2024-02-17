@@ -60,10 +60,10 @@ if (number.includes(Number(userNumber))) {
 
 //задание 8
 
-const letters = 'abcdef'
+const letters = 'abcdef';
 let str = letters.split('');
-let str2 = str.reverse();
-let str3 = str2.join('');
+str.reverse();
+let str3 = str.join('');
 console.log(str3);
 
 //задание 9 
