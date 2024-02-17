@@ -52,7 +52,7 @@ console.log(numSort);
 const number = [9, 8, 7, 6, 5];
 const userNumber = prompt("Угадайте число");
 
-if (number.includes(parseInt(userNumber))) {
+if (number.includes(Number(userNumber))) {
     alert("Угадал");
 } else {
     alert("Не угадал");
