@@ -3,11 +3,12 @@
 let num = [1, 5, 4, 10, 0, 3];
 
 for (let i = 0; i < num.length; i++) {
+  console.log(num[i]);
   if (num[i] === 10) {
     break;
   }
-  console.log(num[i]);
 }
+
 
 //задание 2
 
