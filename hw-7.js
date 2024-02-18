@@ -15,3 +15,8 @@ console.log(searchStart(['Кошка', 'Кит', 'Комар', 'Носорог']
 console.log(searchStart(['яблоко', 'груша', 'гриб', 'огурец'], 'гру')); // ['груша']
 console.log(searchStart(['Дом', 'Банк', 'Больница', 'Театр'], 'Кино')); // []
 
+//задание 3
+
+console.log( Math.floor(32.58884));
+console.log(Math.ceil(32.58884))
+console.log(Math.round(32.58884));
