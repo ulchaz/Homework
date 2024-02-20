@@ -55,5 +55,10 @@ function randomNum(min, max) {
 }
 randomNum(1, 10); 
 
+//задание 8
+
+let nowDate = new Date();
+console.log(nowDate);
+
     
 
