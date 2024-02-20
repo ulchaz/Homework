@@ -33,3 +33,19 @@ return Math.random() * maxValue;
 }
 console.log(
 getRandomInt(0,10));
+
+//задание 6 
+
+function randomNumbers(num) {
+    const length = Math.floor(num / 2); 
+    const arr = [];
+    for (let i = 0; i < length; i++) {
+      arr.push(Math.floor(Math.random() * (num + 1))); 
+    }
+    return arr;
+  }
+    console.log(randomNumbers(7)); 
+    console.log(randomNumbers(12)); 
+
+    
+
