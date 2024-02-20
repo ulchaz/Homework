@@ -60,5 +60,11 @@ randomNum(1, 10);
 let nowDate = new Date();
 console.log(nowDate);
 
+//задание 9
+
+const currentDate = new Date;
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate);
+
     
 
