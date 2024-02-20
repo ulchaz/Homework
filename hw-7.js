@@ -47,5 +47,13 @@ function randomNumbers(num) {
     console.log(randomNumbers(7)); 
     console.log(randomNumbers(12)); 
 
+//задание 7
+
+function randomNum(min, max) {
+  let result = Math.floor(Math.random() * (max - min + 1) + min);
+  console.log(result);
+}
+randomNum(1, 10); 
+
     
 
