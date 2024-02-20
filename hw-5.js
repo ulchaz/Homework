@@ -115,7 +115,7 @@ function cubeNumber() {
   console.log(circle2.getPerimeter());
 
 
-//задание 8
+//игра месяцы
 
 function gameSeason() {
     let month = prompt('Введите номер месяца');

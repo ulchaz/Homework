@@ -78,6 +78,33 @@ let myDate = new Date();
 let fullDate = "Дата: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() + ", " + days[myDate.getDay()] + "." + "Время: " + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
 console.log(fullDate); 
  
+//игра слова
+
+const fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+function randomFruits(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+randomFruits(fruits);
+
+alert ( "Запомните эти слова : "+ fruits.join(', '));
+
+
+let userFirstFruits = prompt("Чему равнялся первый элемент массива?").toLowerCase();
+let userLastFruits = prompt("Чему равнялся последний элемент массива?").toLowerCase();
+
+if (userFirstFruits === fruits[0].toLowerCase() && userLastFruits === fruits[fruits.length - 1].toLowerCase()){
+  alert('Поздравляю! Вы ответили верно!');
+}
+else if (userFirstFruits === fruits[0].toLowerCase() || userLastFruits === fruits[fruits.length - 1].toLowerCase()){
+  alert('Вы были близки!');
+}
+else {
+  alert('Вы ответили неверно :(');
+}
+
 
 
 
