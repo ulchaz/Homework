@@ -40,3 +40,25 @@ const people = [
   ];
   
   console.log(filter(human, isMale)); 
+
+  //задание 3
+
+  function printCurrentDate() {
+    const currentDate = new Date();
+    console.log(currentDate);
+  }
+  
+  let counter = 0;
+  const intervalId = setInterval(() => {
+    printCurrentDate();
+    counter += 3;
+    if (counter >= 30) {
+      clearInterval(intervalId);
+      console.log("30 секунд прошло");
+    }
+  }, 3000);
+  
+  setTimeout(() => {
+    clearInterval(intervalId);
+  }, 30000);
+  
