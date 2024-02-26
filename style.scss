@@ -280,7 +280,9 @@ margin-left: 32px;
     }
 
 }
-
+.game_word_button:hover{
+    transform: scale(1.05);
+}
 
 
 @import "mobile"
