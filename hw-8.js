@@ -42,25 +42,21 @@ const people = [
   console.log(filter(human, isMale)); 
 
   //задание 3
-
   function printCurrentDate() {
     const currentDate = new Date();
     console.log(currentDate);
-  }
-  
-  let counter = 0;
-  const intervalId = setInterval(() => {
+}
+
+let counter = 0;
+const intervalId = setInterval(() => {
     printCurrentDate();
     counter += 3;
     if (counter >= 30) {
-      clearInterval(intervalId);
-      console.log("30 секунд прошло");
+        clearInterval(intervalId);
+        console.log("30 секунд прошло");
     }
-  }, 3000);
-  
-  setTimeout(() => {
-    clearInterval(intervalId);
-  }, 30000);
+}, 3000);
+
   
 
   //задание 4
@@ -76,19 +72,15 @@ delayForSecond(function () {
 
 //задание 5
 
-function delayForSecond(cb) {
-    setTimeout(() => {
-        console.log('Прошла одна секунда');
-        if(cb) { cb(); }
-    }, 1000)
+function countSeconds(name, cb) {
+  setTimeout(() => {
+      console.log('Прошла одна секунда');
+      if (cb) { cb(name); }
+  }, 1000);
 }
 
-
-function sayHi(names) {
-    return function() {
-        console.log('Привет, ' + names + '!');
-    };
+function sayHi(name) {
+  console.log('Привет, ' + name + ' !');
 }
 
-const greet = sayHi('Глеб'); 
-delayForSecond(greet);
+countSeconds('Глеб', sayHi);
