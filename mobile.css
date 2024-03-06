@@ -1,0 +1,165 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .game_head {
+    padding-top: 328px;
+    color: #ffffff;
+    display: flex;
+    width: 343px;
+    height: 77.436px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0;
+  }
+  .text {
+    width: 343px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .top_block {
+    display: flex;
+    justify-content: center;
+  }
+  .game_text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .game_text_big {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  .button_mob {
+    display: flex;
+    justify-content: center;
+  }
+  .button_go {
+    margin-left: 0px;
+  }
+  .game_catalog {
+    height: 1221px;
+  }
+  .games {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .game {
+    width: 343px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+  }
+  .game_season_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 653.61px;
+  }
+  .game_season_box {
+    padding-top: 51px;
+    width: 343px;
+    height: 217.6px;
+  }
+  .game_season_heading {
+    width: 243px;
+    height: 39px;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .game_season_heading_block {
+    display: flex;
+    justify-content: center;
+  }
+  .game_season_text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .game_season_button_mob {
+    display: flex;
+    justify-content: center;
+  }
+  .season_svg {
+    width: 344px;
+    height: 236px;
+    display: flex;
+    margin-top: 64px;
+    margin-left: 0px;
+  }
+  .game_word {
+    height: 653.61px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .game_word_box {
+    padding-top: 51px;
+    display: flex;
+    width: 343px;
+    margin-bottom: 64px;
+    height: 217.6px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .game_word_heading {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .game_word_heading_block {
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .game_word_text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 343px;
+  }
+  .game_word_text_block {
+    padding-left: 0;
+    width: 343px;
+    display: flex;
+    justify-content: center;
+  }
+  .game_word_button {
+    margin-left: 0;
+  }
+  .game_word_svg {
+    display: flex;
+    width: 344px;
+    height: 231px;
+    padding-left: 0;
+    margin-top: 64px;
+  }
+}/*# sourceMappingURL=mobile.css.map */

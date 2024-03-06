@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a{text-decoration: none;}
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+
+.top_game{
+    height: 1024px;
+    background-image: url(img/back_game.jpg);
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.game_head{
+    width: 730.778px;
+height: 125.007px;
+color: #FFF;
+
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 217px;
+margin-left: 120px;
+}
+
+.text{
+    width: 481px;
+    height: 64px;
+    margin-left: 120px;
+    margin-top: 32px;
+}
+
+.game_text{
+
+color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px;
+
+}
+.game_text_big{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+}
+
+.button_go{
+    width: 234.063px;
+height: 48.603px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #9C0332;
+border: none;
+color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 120px;
+margin-top: 44px;
+}
+
+.button_go:hover{
+    transform: scale(1.05);
+}
+.game_catalog{
+
+height: 556px;
+flex-shrink: 0;
+background: #000915;
+}
+
+.games{
+    padding-top: 128px;
+    display: flex;
+    gap: 32px;
+}
+
+.game1{
+
+    width: 379px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+background-image: url(img/game1.jpg);
+}
+
+.game2{
+    width: 379px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+background-image: url(img/game2.jpg);
+}
+
+.game3{
+    width: 379px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+background-image: url(img/game3.jpg);
+}
+.game_name{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+padding-top:236px ;
+margin-left: 32px;
+}
+
+.game1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
+  }
+.game2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
+  }
+.game3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ccc;
+  }
+
+
+.game_season{
+    &_block{
+        height: 800px;
+        top: 1580px;
+        background-color: #000915;
+        display: flex;
+        }
+    &_box{
+        width: 584px;
+    height: 313.61px;
+    padding-top: 243px;
+    display: flex;
+    flex-direction: column;
+    }
+    &_heading{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+    }
+  
+    &_text{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;  
+        margin-top: 32px; 
+        
+        
+    }
+    &_button{
+        width: 234.063px;
+        height: 48.603px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #9C0332;
+        border: none;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 32px;
+
+    }
+}
+.game_saeson_text_big{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;   
+}
+.game_season_button:hover{
+    transform: scale(1.05);
+}
+.game_saeson_text_block{
+    width: 481px;
+    margin-top: 32px;
+}
+
+.season_svg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 233px;
+    margin-left: 135px;
+}
+
+.game_word{
+    height: 800px;
+    background-color: rgb(0, 9, 21);
+    display: flex;
+    &_svg{
+        padding-top: 232px;
+    }
+    &_heading{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    &_heading_block{
+        padding-top: 282px;
+        padding-left: 135px;
+    }
+    &_text{
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    &_text_block{
+        width: 588px;
+        padding-top: 32px;
+        padding-left: 135px;
+
+
+    }
+    &_button{
+        width: 234.063px;
+        height: 48.603px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background: #9C0332;
+        border: none;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 32px;
+        margin-left: 135px;
+    }
+    &_svg{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+.game_word_button:hover{
+    transform: scale(1.05);
+}
+
+
+@import "mobile"
