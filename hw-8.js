@@ -1,4 +1,4 @@
-//задание 1
+//Задание-1
 
 const people = [
     { name: 'Глеб', age: 29 },
@@ -76,19 +76,18 @@ delayForSecond(function () {
 
 //задание 5
 
+
+
+
 function delayForSecond(cb) {
-    setTimeout(() => {
-        console.log('Прошла одна секунда');
-        if(cb) { cb(); }
-    }, 1000)
+  setTimeout(() => {
+      console.log('Прошла одна секунда');
+      if(cb) {  cb(); }
+  }, 1000)
 }
 
-
-function sayHi(names) {
-    return function() {
-        console.log('Привет, ' + names + '!');
-    };
+function sayHi(name) {
+  console.log(`Привет, ${name}!`);
 }
 
-const greet = sayHi('Глеб'); 
-delayForSecond(greet);
+delayForSecond(() => sayHi('Глеб'));
