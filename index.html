@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+<div class="top_game center ">
+    <div class="top_block"><h1 class="game_head center">Добро пожаловать на мой сайт !</h1></div>
+    <div class="top_block"> <div class="text"><p1 class="game_text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="game_text_big" >поехали</span> и <span class="game_text_big">приступай</span></p1>
+    </div>
+    </div>
+    <div class="button_mob">
+<button class="button_go">Поехали!</button>
+</div>
+   </div> 
+   <div class="game_catalog center">
+    <div class="games">
+        <a href="#"><div class="game game1"><p class="game_name">Игра 1</p></div></a>
+        <a href="#"><div class="game game2"><p class="game_name">Игра 2</p></div></a>
+        <a href="#"><div class="game game3"><p class="game_name">Игра 3</p></div></a>
+    </div>
+   </div>
+   <div class="game_season_block center">
+    <div class="game_season_box">
+        <div class="game_season_heading_block"><h1 class="game_season_heading">Времена года</h1></div>
+        <div class="text_season"><p class="game_season_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p></div>
+        <div class="game_season_button_mob"><button onclick="gameSeason();" class="game_season_button">Играть!</button>
+        </div>
+        </div>
+
+    <div class="season_svg"><img src="img/game_saoson_pic.png" alt="a">      
+    </div>
+   </div>
+   <div class="game_word center">
+    <div class="game_word_svg"><img src="img/game_word.png" alt="a"></div>
+<div class="game_word_box">
+        <div class="game_word_heading_block"><h1 class="game_word_heading">Запомни слова</h1>
+   </div>
+   <div class="game_word_text_block"><p class="game_word_text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+        </div>
+        <button onclick="randomFruits()" class="game_word_button">Играть!</button>
+    </div>
+</div>
+   <script src="hw-8.js"></script>
 </body>
 </html>
